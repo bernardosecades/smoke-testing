@@ -1,0 +1,7 @@
+/composer.lock
+vendor/
+build/
+cache.properties
+.idea
+storage/logs
+.env

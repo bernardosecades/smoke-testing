@@ -1,0 +1,23 @@
+{
+  "name": "changed/smoke-testing",
+  "license": "proprietary",
+  "description": "This component integrate basic smoke tests for php pojects",
+  "require": {
+    "php": ">=7.1",
+    "symfony/dotenv": "^4.0",
+    "phpunit/phpunit": "~6.0",
+    "psr/container": "^1.0",
+    "composer/composer": "^1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "BernardoSecades\\SmokeTesting\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable"
+}
